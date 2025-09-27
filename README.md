@@ -75,8 +75,6 @@ Blog CRUD allows users to:
     php artisan key:generate
     ```
 
-    ثم اضبط إعدادات قاعدة البيانات في ملف `.env`.
-
 4. **Set Up the Database**
 
     ```bash
@@ -94,13 +92,12 @@ Blog CRUD allows users to:
 
 ### Users Table
 
-| Column   | Type   | Description          |
-| -------- | ------ | -------------------- |
-| id       | bigint | Primary key          |
-| name     | string | User's name          |
-| email    | string | User's email         |
-| password | string | Hashed password      |
-| avatar   | string | User avatar filename |
+| Column   | Type   | Description     |
+| -------- | ------ | --------------- |
+| id       | bigint | Primary key     |
+| name     | string | User's name     |
+| email    | string | User's email    |
+| password | string | Hashed password |
 
 ### Blogs Table
 
